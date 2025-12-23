@@ -159,7 +159,10 @@
 .lots__card-list-item {
   width: 430px;
   min-height: 450px;
-  flex-grow: 1;
+}
+
+.lots__card-list-item:last-child {
+  width: 430px;
 }
 
 .card-link {
